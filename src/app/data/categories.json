@@ -1,0 +1,51 @@
+{
+    "CHEMISTRY_LAB": [
+        "Analytical Instruments",
+        "Material Characterization",
+        "General Lab Equipment",
+        "Organic Synthesis Equipment",
+        "Safety & Environmental Equipment"
+    ],
+    "BIOMEDICAL_LAB": [
+        "Imaging Systems",
+        "Diagnostic Equipment",
+        "Bio-Signal Processing",
+        "Laboratory Analysis Equipment",
+        "Rehabilitation & Therapeutic Devices"
+    ],
+    "EEE_LAB": [
+        "Power Systems",
+        "Electrical Machines",
+        "Measurement Instruments",
+        "Renewable Energy Systems",
+        "High Voltage Engineering"
+    ],
+    "ECE_LAB": [
+        "Communication Systems",
+        "Embedded Systems",
+        "VLSI & Digital Systems",
+        "Signal Processing Systems",
+        "IoT & Wireless Systems"
+    ],
+    "PHYSICS_LAB": [
+        "Optics",
+        "Mechanics",
+        "Electronics Physics",
+        "Nuclear Physics Equipment",
+        "Thermal Physics Equipment"
+    ],
+    "COMPUTER_LAB": [
+        "Hardware Systems",
+        "Networking Equipment",
+        "Software & AI Systems",
+        "Cyber Security Systems",
+        "Cloud & Data Center Systems"
+    ],
+    "MECHANICAL_LAB": [
+        "Thermodynamics",
+        "Fluid Mechanics",
+        "Robotics",
+        "Material Testing",
+        "Manufacturing"
+    ]
+}
