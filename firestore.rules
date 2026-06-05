@@ -1,0 +1,17 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // PUBLIC READ: Allow anyone to view facilities and equipment
+    match /facilities/{doc=**} {
+      allow read: if true;
+    }
+    match /{path=**}/equipment/{doc} {
+      allow read: if true;
+    }
+
+    // AUTHENTICATED ACCESS: Require sign-in for everything else (users, bookings, and writes)
+    match /{document=**} {
+      allow read, write, delete: if request.auth != null;
+    }
+  }
+}
